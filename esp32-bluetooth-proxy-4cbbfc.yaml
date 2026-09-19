@@ -1,6 +1,6 @@
 substitutions:
   name: esp32-bluetooth-proxy-4cbbfc
-  friendly_name: Bluetooth Proxy 4cbbfc
+  friendly_name: Bluetooth Proxy 1
 
 packages:
   esphome.bluetooth-proxy: "github://esphome/bluetooth-proxies/esp32-generic/esp32-generic.yaml@main"
