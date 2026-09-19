@@ -1,0 +1,19 @@
+substitutions:
+  name: esp32-bluetooth-proxy-4cbbfc
+  friendly_name: Bluetooth Proxy 4cbbfc
+
+packages:
+  esphome.bluetooth-proxy: "github://esphome/bluetooth-proxies/esp32-generic/esp32-generic.yaml@main"
+
+esphome:
+  name: ${name}
+  name_add_mac_suffix: false
+  friendly_name: ${friendly_name}
+
+api:
+  encryption:
+    key: "gb5r5Ne4QTKoSK0RA0hNO2icWK4x36WFSjRTD6NkpoI="
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
