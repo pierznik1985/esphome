@@ -15,5 +15,6 @@ api:
     key: "gb5r5Ne4QTKoSK0RA0hNO2icWK4x36WFSjRTD6NkpoI="
 
 wifi:
+  use_address: 192.168.1.183
   ssid: !secret wifi_ssid
   password: !secret wifi_password
