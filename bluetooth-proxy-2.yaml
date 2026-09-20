@@ -1,5 +1,5 @@
 substitutions:
-  name: bluetooth-proxy-2
+  name: esp32-bluetooth-proxy-2
   friendly_name: Bluetooth Proxy 2
 
 packages:
